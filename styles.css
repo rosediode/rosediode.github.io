@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #CAA5DE;
+    cursor: url(no), auto
+    letter-spacing: 1px;
+	line-height: 1.2;
+	color: #669;
+	text-transform: lowercase;
+	font-family: "presicav", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+#heading {
+	text-align: center
+}
+
+#navbar {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto
+    }
+#navbar > a {
+    background-color: white;
+    border: 1px solid #4E428A;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4E428A;
+    transition: 500ms
+    }
+#navbar > a:hover {
+	background-color: #DCC3E9;
+	border-color: #4E428A;
+	color: #4E428A
+    }
+
+#content {
+  padding: 20px;
+  width: 580px !important;
+  border: dashed 3px #4E428A;
+  min-width: min-content;
+  display: flex;
+  flex-direction: column;
+  gap: 16.5px;
+  margin-top: 16.5px;
+  margin: auto;
+  background: #fff;
+}
+
+#info{
+display: grid;
+  grid-template-columns: 1fr 100px 130px;
+  grid-template-areas:
+"text shield collections";
+  align-items: center;
+  gap: 10px;
+}
+
+#bio{
+  grid-area: text;
+}
+
+#collection {
+  grid-area: collections;
+  margin-left: -40px;
+  padding: 2px;
+  margin-bottom: 4px;
+  text-align: center
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16.5px;
+}
