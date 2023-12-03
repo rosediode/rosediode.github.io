@@ -14,7 +14,7 @@ body {
     }
 
 #page {
-  align-content: center;
+  align-items: center;
 }
 #heading {
 	text-align: center
