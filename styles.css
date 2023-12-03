@@ -1,13 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 3px solid green;
-}
-
 body {
 	background-color: #CAA5DE;
     cursor: url(no), auto
