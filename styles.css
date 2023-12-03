@@ -1,5 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 body {
 	background-color: #CAA5DE;
     cursor: url(no), auto
