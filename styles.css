@@ -13,6 +13,9 @@ body {
     font-style: normal;
     }
 
+#page {
+  align-content: center;
+}
 #heading {
 	text-align: center
 }
