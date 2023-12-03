@@ -13,9 +13,17 @@ body {
     font-style: normal;
     }
 
-#page {
-  align-items: center;
+#container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  max-width: min-content;
+  grid-template-columns: 0 800px 0;
+  grid-template-rows: 0 0 min-content min-content 0;
+  margin: auto;
+  align-content: center;
 }
+
 #heading {
 	text-align: center
 }
